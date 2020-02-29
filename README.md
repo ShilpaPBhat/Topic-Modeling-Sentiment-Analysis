@@ -30,14 +30,14 @@ Austin airbnb data was used. The entire analysis and data used can be found [her
 ## Result
 There were 4 topic mainly customers talked about their stay
 * Topic 1: Location
-* Topic 2: Overall - Stay, location, place, comfort, space, host
+* Topic 2: Overall - stay, location, place, comfort, space, host
 * Topic 3: Space and comfort
 * Topic 4: Particularly about room and stay
 
-The datset has 84% neutral, 16% positive and barely any negative comments
+The datset has ~84% neutral, ~16% positive and barely any negative comments
 
 To predict if the host is superhost or not, used 4 different models - Naive bayes, Linear SVC, Logistic regression and Random forest. 
-Linear SVC fits the date better with test accuracy of 91.5%
+Linear SVC fits the data best with test accuracy of 91.5%
 
 ## Use Cases
 Came across this article which explains the use cases of [Sentiment Analysis](https://monkeylearn.com/sentiment-analysis/) & [Topic Modeling](https://monkeylearn.com/blog/introduction-to-topic-modeling/)
